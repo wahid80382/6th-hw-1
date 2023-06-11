@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    outline: 0;
+    Padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tiro Bangla', serif;
+}
+header{
+    background-color:red;
+}
+li{
+    display: inline-block;
+}
+a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.8s;
+    border-bottom:5px solid  transparent;
+    line-height: 10px;
+}
+a:hover{
+    background-color:aqua;
+    border-bottom-color:  black;
+    color:blueviolet;
+}
